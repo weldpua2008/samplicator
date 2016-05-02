@@ -1,0 +1,17 @@
+language: python
+sudo: required
+branches:
+  # blacklist
+  except:
+    - master
+#  only:
+#  - ansible_1.9.2
+
+#services:
+#  - docker
+before_install:
+  - sudo apt-get -qq update
+  - sudo apt-get -y install build-essential libtool autoconf
+script:
+  # Run tests on Ubuntu 12
+  -  ./autogen.sh && ./configure && make &&  make install
