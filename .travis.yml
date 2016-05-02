@@ -14,4 +14,4 @@ before_install:
   - sudo apt-get -y install build-essential libtool autoconf
 script:
   # Run tests on Ubuntu 12
-  -  ./autogen.sh && ./configure && make &&  make install
+  -  ./autogen.sh && ./configure && make &&  sudo make install
