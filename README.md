@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/weldpua2008/samplicator.svg?branch=master)](https://travis-ci.org/weldpua2008/samplicator)
+
 UDP Samplicator
 ===============
 
